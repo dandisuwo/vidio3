@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=3000000
-https://etslive-2-vidio-com.akamaized.net/exp=1691926403~acl=/hls-p/ingest_13886_*/*~hmac=5f1cb792ac753039deff7936f1a78781e00b10c0ae7e011d4c934206508a65b6/hls-p/ingest_13886_360p/index.m3u8
+https://d1211whpimeups.cloudfront.net/smil:rtb2/chunklist_b608000_sleng.m3u8
