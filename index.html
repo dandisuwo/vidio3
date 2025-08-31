@@ -6,31 +6,29 @@
    <meta name="viewport" content="width=device-width">
    <meta name="referrer" content="same-origin">
    <link rel="stylesheet" href="https://arjunaaaaa.github.io/lsbtv/gaya.css" />
-   <script src="https://pidio.pages.dev/player/jw/ifm.js"></script>
    <style> 
        .center { 
            display: flex; 
            justify-content: center; 
            align-items: center; 
            height: 100vh; 
+           margin: 0;
        } 
 
-	   
        .popup-button {
            position: fixed;
            bottom: 50px;
            left: 10px;
-          
            padding: 10px 20px;
            background: linear-gradient(
                to right,
-               rgba(0, 0, 0, 1.5) 55%,
+               rgba(0, 0, 0, 1) 55%,
                transparent 100%
            );
            color: gold;
            text-decoration: none;
            border-radius: 10px;
-           font-size: 8px;
+           font-size: 12px;
            z-index: 1000;
            border: 0px solid rgba(255, 255, 255, 0.3);
            transition: background 0.3s ease, opacity 0.3s ease;
@@ -39,32 +37,33 @@
        .popup-button:hover {
            background: linear-gradient(
                to left,
-               rgba(0, 0, 0, 1.5) 55%,
+               rgba(0, 0, 0, 1) 55%,
                transparent 100%
            );
        }
-       
    </style>
+   <script type='text/javascript' src='//signingunwilling.com/3b/20/f4/3b20f4689999744685c710ae975832f9.js'></script>
 </head>
 <body>
    <div class="center">
       <iframe title="bang ampun bang" id="wcq" width="100%" height="100%" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
               allowfullscreen></iframe>
    </div>
 
-   <!-- Popup Container -->
-   
    <!-- Tombol Popup -->
-   <a href="https://www.profitableratecpm.com/g2w7ut1hm4?key=53a1b14dfd7afcf9793564250efbef70" class="popup-button" id="tombol">Hati Hati kegocek iklan! Kalau Tanda Ini Hilang, Langsung Tekan Tombol Kembali/Back</a>
+   <a href="https://signingunwilling.com/fjupn8kxs?key=7f974a6ee2c2e1c82743f726e9eae579" 
+      class="popup-button" id="tombol">
+      Hati Hati kegocek iklan! Kalau Tanda Ini Hilang, Langsung Tekan Tombol Kembali/Back
+   </a>
 
    <script>
        // Fungsi untuk mengambil parameter dari URL
        function getParameterByName(name) {
            const url = window.location.href;
            name = name.replace(/[\[\]]/g, '\\$&');
-           const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-               results = regex.exec(url);
+           const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+           const results = regex.exec(url);
            if (!results) return null;
            if (!results[2]) return '';
            return decodeURIComponent(results[2].replace(/\+/g, ' '));
@@ -77,19 +76,18 @@
            iframe.id = idBaru;
        }
 
-       // Mengubah teks tombol setelah diklik
+       // Ubah teks tombol setelah diklik
        const tombol = document.getElementById('tombol');
        tombol.addEventListener('click', function(e) {
-           e.preventDefault(); // Mencegah navigasi langsung
-           this.style.opacity = '1.9'; // Efek redup sementara
-           this.innerHTML = 'Karna Anda Dialihkan Oleh Iklan'; // Ganti teks
+           e.preventDefault(); 
+           this.style.opacity = '0.5'; // efek redup
+           this.innerHTML = 'Karna Anda Dialihkan Oleh Iklan';
            
-           // Setelah 1 detik, navigasikan ke link
            setTimeout(() => {
                window.location.href = this.href;
            }, 1000);
        });
    </script>
-   <script src="https://pidio.pages.dev/player/jw/ifm.js"></script>
+   <script src="https://pisionx.pages.dev/api/ifm.js"></script>
 </body>
 </html>
